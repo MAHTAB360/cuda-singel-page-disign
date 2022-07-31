@@ -1,0 +1,179 @@
+/* ============================================= */
+                /* basic setup */
+/* ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #fff;
+
+}
+ul li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+/* ============================================= */
+                /* reusable component */
+/* ============================================= */
+
+.row{
+    max-width: 114rem;
+    margin: auto;
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+.btn{
+    background-color: #eb7d4b;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    display: inline-block;
+    margin-top: 35px;
+    border-radius: 3px;
+    /* font-size: 10px; */
+
+}
+section{
+    padding: 7rem 3.5rem;
+}
+h2{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+    letter-spacing: .3rem;
+    display: block;
+}
+h2::after{
+    content: "";
+    display: block;
+    height: 0.4rem;
+    width: 8.5rem;
+    background: #14a58c;
+    margin: 0.1rem auto;
+    margin-top: 2px;
+    
+}
+.services-little-discription{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4.5rem;
+    line-height: 2rem;
+}
+h3{
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-bottom: .5rme;
+}
+/* ============================================= */
+                /* header section */
+/* ============================================= */
+.wraper{
+    overflow: hidden;
+}
+header{
+    background: linear-gradient(#87509ce7,#87509ce7), url(/resourse/css/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+    position: relative;
+}
+
+.logo{
+    height: 35px;
+    width: auto;
+    margin: 35px;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 45px;
+    margin-right: 35px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 10px;
+    
+    
+}
+
+.main-nav li:first-child{
+    background-color: #643a79;
+    padding: 7px 7px;
+    border-radius: 3px;
+}
+.main-nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px 7px;
+    border-radius: 3px;
+    color: #fff;
+
+}
+.main-nav li a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 0px;
+    background: #643a79;
+    transition: .8s;
+    
+
+}
+.main-nav ul li a:checked{
+    background: #643a79;
+    transition: .8s;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+}
+.btn-hero{
+    border-bottom: 5px solid #c86a40;
+}
+
+/* ============================================= */
+                /* services section */
+/* ============================================= */
+
+#services{
+    background: #17c2a4;
+    height: 92vh;
+}
+.branding-icon{
+    height: 12rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.services-box p{
+    font-size: 1.3rem;
+    text-align: center;
+    /* text-transform: capitalize; */
+    margin-bottom: 2rem;
+    
+    
+}
